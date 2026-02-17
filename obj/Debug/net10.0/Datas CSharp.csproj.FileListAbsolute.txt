@@ -1,0 +1,14 @@
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/bin/Debug/net10.0/Datas CSharp
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/bin/Debug/net10.0/Datas CSharp.deps.json
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/bin/Debug/net10.0/Datas CSharp.runtimeconfig.json
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/bin/Debug/net10.0/Datas CSharp.dll
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/bin/Debug/net10.0/Datas CSharp.pdb
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/Datas CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/Datas CSharp.AssemblyInfoInputs.cache
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/Datas CSharp.AssemblyInfo.cs
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/Datas CSharp.csproj.CoreCompileInputs.cache
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/Datas CSharp.dll
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/refint/Datas CSharp.dll
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/Datas CSharp.pdb
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/Datas CSharp.genruntimeconfig.cache
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/ref/Datas CSharp.dll
