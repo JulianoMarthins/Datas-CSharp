@@ -79,8 +79,88 @@ Console.Clear();
 
 Console.WriteLine("CultureInfo");
 
-var pt = new System.Globalization.CultureInfo("pt=BR");
+var pt = new System.Globalization.CultureInfo("pt-BR");
 var en = new System.Globalization.CultureInfo("en-US");
+var de = new CultureInfo("de-DE");
 
-Console.WriteLine(DateTime.Now.ToString("D"));
+
+// Mostra no console a data completa em dinamarques
+Console.WriteLine(DateTime.Now.ToString("D", de));
+
+
+// Pegar a cultura atual da máquina do usuário
+var atual = CultureInfo.CurrentCulture;
+Console.WriteLine(DateTime.Now.ToString("D", atual));
+
+
+Console.ReadKey();
+Console.Clear();
+
+
+Console.WriteLine("TimeZone");
+
+// O TimeZone padroniza a hora no formato UTC, deixando assim a hora muito mais confiavél 
+// devido a possível variação do servidor de acesso da aplicação ao redor do mundo. Deve ser 
+// utilizado para caso sua aplicação seja globalizada.
+
+
+var utcDate = DateTime.UtcNow;
+
+// Horario atual no formato universal
+Console.WriteLine($"Hora atual universal: {utcDate}");
+Console.WriteLine($"Hora atual do sistema: {DateTime.Now}");
+
+// Para converter a data universal para a data do usuário
+Console.WriteLine($"Data universal convertida: {utcDate.ToLocalTime}");
+
+// Processo para usar a hora local do usuário independente da hora da máquina utilizada
+var timezoneAustralia = TimeZoneInfo.FindSystemTimeZoneById("Pacific/Auckland");
+Console.WriteLine($"Horario do país: {timezoneAustralia}");
+
+var horaAustralia = TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezoneAustralia);
+Console.WriteLine($"Horario na Australia: {horaAustralia}");
+
+
+Console.ReadKey();
+Console.Clear();
+
+System.Console.WriteLine("Retorno das ID dos TimeZones\n");
+
+var timezones = TimeZoneInfo.GetSystemTimeZones();
+
+foreach (var timezone in timezones)
+{
+    Console.WriteLine(timezone.Id);
+    Console.WriteLine(timezone);
+    Console.WriteLine(TimeZoneInfo.ConvertTimeFromUtc(utcDate, timezoneAustralia));
+    Console.WriteLine("\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n");
+}
+
+
+Console.ReadKey();
+Console.Clear();
+
+Console.WriteLine("TimeSpan");
+
+var timeSpan = new TimeSpan();
+Console.WriteLine(timeSpan);
+
+var timeSpanNanoSegundos = new TimeSpan(1);
+Console.WriteLine(timeSpanNanoSegundos);
+
+var timeSpanHoraMinutosSegundos = new TimeSpan(8, 31, 23);
+Console.WriteLine(timeSpanHoraMinutosSegundos);
+
+var timeSpanDiaHoraMinutoSegundo = new TimeSpan(17, 8, 31, 23);
+Console.WriteLine(timeSpanDiaHoraMinutoSegundo);
+
+var timeSpanDiaHoraMinutoSegundoMilissegundo = new TimeSpan(17, 8, 31, 23, 150);
+Console.WriteLine(timeSpanDiaHoraMinutoSegundoMilissegundo);
+
+
+// O timeSpan é feito para a realização de calculos para horas..
+
+
+
+
 

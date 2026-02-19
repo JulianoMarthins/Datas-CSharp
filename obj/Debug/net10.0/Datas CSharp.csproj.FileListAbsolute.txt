@@ -12,18 +12,19 @@
 /home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/Datas CSharp.pdb
 /home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/Datas CSharp.genruntimeconfig.cache
 /home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/ref/Datas CSharp.dll
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\bin\Debug\net10.0\Datas CSharp.exe
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\bin\Debug\net10.0\Datas CSharp.deps.json
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\bin\Debug\net10.0\Datas CSharp.runtimeconfig.json
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\bin\Debug\net10.0\Datas CSharp.dll
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\bin\Debug\net10.0\Datas CSharp.pdb
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\obj\Debug\net10.0\Datas CSharp.GeneratedMSBuildEditorConfig.editorconfig
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\obj\Debug\net10.0\Datas CSharp.AssemblyInfoInputs.cache
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\obj\Debug\net10.0\Datas CSharp.AssemblyInfo.cs
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\obj\Debug\net10.0\Datas CSharp.csproj.CoreCompileInputs.cache
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\obj\Debug\net10.0\Datas CSharp.sourcelink.json
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\obj\Debug\net10.0\Datas CSharp.dll
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\obj\Debug\net10.0\refint\Datas CSharp.dll
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\obj\Debug\net10.0\Datas CSharp.pdb
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\obj\Debug\net10.0\Datas CSharp.genruntimeconfig.cache
-D:\WorkSpace\Projetos\CSharp\Datas-CSharp\obj\Debug\net10.0\ref\Datas CSharp.dll
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/bin/Debug/net10.0/Datas CSharp.exe
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/bin/Debug/net10.0/Datas CSharp.deps.json
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/bin/Debug/net10.0/Datas CSharp.runtimeconfig.json
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/bin/Debug/net10.0/Datas CSharp.dll
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/bin/Debug/net10.0/Datas CSharp.pdb
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/obj/Debug/net10.0/Datas CSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/obj/Debug/net10.0/Datas CSharp.AssemblyInfoInputs.cache
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/obj/Debug/net10.0/Datas CSharp.AssemblyInfo.cs
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/obj/Debug/net10.0/Datas CSharp.csproj.CoreCompileInputs.cache
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/obj/Debug/net10.0/Datas CSharp.sourcelink.json
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/obj/Debug/net10.0/Datas CSharp.dll
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/obj/Debug/net10.0/refint/Datas CSharp.dll
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/obj/Debug/net10.0/Datas CSharp.pdb
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/obj/Debug/net10.0/Datas CSharp.genruntimeconfig.cache
+D:/WorkSpace/Projetos/CSharp/Datas-CSharp/obj/Debug/net10.0/ref/Datas CSharp.dll
+/home/julianomarthins/Projetos/CSharp/Datas CSharp/obj/Debug/net10.0/Datas CSharp.sourcelink.json
