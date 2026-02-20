@@ -160,7 +160,28 @@ Console.WriteLine(timeSpanDiaHoraMinutoSegundoMilissegundo);
 
 // O timeSpan é feito para a realização de calculos para horas..
 
+Console.ReadKey();
+Console.Clear();
 
 
+Console.WriteLine("Métodos importantes para uso em datas");
 
+// Quantos dias tem um mês
 
+Console.WriteLine($"Quantos dias tem o mês de Fevereiro de 2020: {DateTime.DaysInMonth(2020, 2)}"); // Retorna 29 dias, ano bissesto
+
+Console.WriteLine($"Quantos dias tem o mês de Fevereiro de 2021: {DateTime.DaysInMonth(2021, 2)}"); // Retorna 28 dias
+
+// Como estar se é fim de semana?
+static bool IsWeekDay(DayOfWeek today)
+{
+    return today == DayOfWeek.Sunday || today == DayOfWeek.Saturday;
+}
+
+var find = new DateTime(2026, 2, 14);
+
+Console.WriteLine($"Fim de semana? {IsWeekDay(DateTime.Now.DayOfWeek)}");
+Console.WriteLine($"Fim de semana? {IsWeekDay(find.DayOfWeek)}");
+
+// Verifica se estamos no horario de verão, retorna um bool
+Console.WriteLine($"Horario de verão: {DateTime.Now.IsDaylightSavingTime()}");
